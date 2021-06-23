@@ -1,2 +1,4 @@
 #!/bin/bash
-#commment
+char c=$CFILE 
+gcc -E c -o
+
