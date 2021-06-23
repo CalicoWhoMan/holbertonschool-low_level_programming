@@ -1,0 +1,2 @@
+# Set git to use the credential memory cache
+git config --global credential.helper cache
