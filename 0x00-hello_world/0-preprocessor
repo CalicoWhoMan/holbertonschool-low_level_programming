@@ -1,4 +1,3 @@
-#!/bin/bash
-char c=$CFILE 
-gcc -E c -o
+#!/bin/bash 
+gcc -E "$CFILE" -o c
 
