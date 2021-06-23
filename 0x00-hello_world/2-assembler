@@ -1,2 +1,2 @@
 #!/bin/bash
-#commment
+gcc -S "$CFILE" -o
