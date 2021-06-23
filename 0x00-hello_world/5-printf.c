@@ -8,6 +8,6 @@ int main(void)
 {
 	char Lemons[] = "with proper grammar, but the outcome is a piece of art, \n";
 
-	printf(Lemons);
+	printf("%s", Lemons);
 	return (0);
 }
