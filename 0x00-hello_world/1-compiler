@@ -1,2 +1,2 @@
 #!/bin/bash
-#commment
+cc -c main.c -o main.o
