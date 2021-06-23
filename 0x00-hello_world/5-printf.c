@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char Lemons[] = "with proper grammar, but the outcome is a piece of art, \n";
+	char Lemons[] = "with proper grammar, but the outcome is a piece of art,\n";
 
 	printf("%s", Lemons);
 	return (0);
