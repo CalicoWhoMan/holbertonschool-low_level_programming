@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#chmods,shebangs, and adds comments to all folders in a directory
+#format: ./initfiles /directoryToInitialize
+
+LISTY=$(find $1 -maxdepth 1 -type f)
+for i in $LISTY
+do
+chmod u+x $i
+echo '#!/bin/bash' > $i
+echo '#commment' >> $i
+done
+
+if [ ! -e $1/"README.md" ];
+then
+        touch $1/"README.md"
+	        echo "comments go here" > $1/"README.md"
+		fi
+		
