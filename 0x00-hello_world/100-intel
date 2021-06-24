@@ -1,0 +1,3 @@
+#!/bin/bash
+#generates assembly code and intel syntax
+gcc -S -mtune=intel "$CFILE" 
