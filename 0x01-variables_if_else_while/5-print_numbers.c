@@ -13,5 +13,6 @@ int main(void)
 	{
 		printf("%d", lemon);
 	}
+	printf("\n");
 	return (0);
 }
