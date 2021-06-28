@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- *
  * main - print lowercase and uppercase letter
  *
  * Return: 0
- **/
+ */
 
 int main(void)
 {
