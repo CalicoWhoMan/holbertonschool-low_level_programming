@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <holberton.h>
 /**
  * main - print Holberton followed by new line
  *
@@ -9,7 +10,7 @@ int main(void)
 
 {
 printf("Holberton");
-putchar('\n');
+_putchar('\n');
 
 return (0);
 }
