@@ -2,9 +2,8 @@
 /**
  * main - single digits of base 10 starting from 0
  *
- * return: 0
+ * Return: 0
  */
-
 int main(void)
 {
 	int g;
@@ -13,5 +12,6 @@ int main(void)
 	putchar(g + '0');
 	}
 	putchar ('\n');
+
 	return (0);
 }
