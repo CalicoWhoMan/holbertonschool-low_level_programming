@@ -3,11 +3,10 @@
 /**
  * main - check the code for Holberton School students.
  *
- * Return: 0
+ * Return: (0)
  */
 
 void print_alphabet(void)
-
 {
 	int lemons;
 
