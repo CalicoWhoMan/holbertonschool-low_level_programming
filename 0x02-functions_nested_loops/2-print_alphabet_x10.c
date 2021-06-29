@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	int lemon = 0;
 	char lime;
 
-	while (lemon++ <= 10)
+	while (lemon++ <= 9)
 
 	
 	for (lime = 'a'; lime <= 'z'; lime++)
