@@ -1,14 +1,11 @@
-#include <stdio.h>
 #include "holberton.h"
-#include <stdlib.h>
 /**
  * main - print Holberton followed by new line
  *
  * Return: 0
  */
 
-int main(void)
-
+int main(void);
 {
 _putchar('H');
 _putchar('o');
