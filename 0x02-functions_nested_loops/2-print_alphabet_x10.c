@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	char lime;
 
 	while (lemon++ <= 9)
-
+	{
 	
 	for (lime = 'a'; lime <= 'z'; lime++)
 
@@ -20,9 +20,9 @@ void print_alphabet_x10(void)
 	_putchar (lime);
 
 	}
-	{
+	
 	_putchar ('\n');
 
+	
 	}
-
 }
