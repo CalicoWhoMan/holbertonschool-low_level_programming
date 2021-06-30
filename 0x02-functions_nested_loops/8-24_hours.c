@@ -4,12 +4,13 @@
  * jack_bauer - display the minutes and hours of the day military
  * Return: 0
  */
-
 void jack_bauer(void)
-{ int minute, hour;
-	for (minute = 0; minute <= 59; minute++)
-	{
+{
+	int minute, hour;
+
 	for (hour = 0; hour <= 23; hour++)
+	{
+	for (minute = 0; minute <= 59; minute++)
 
 	{
 	_putchar ((hour / 10) + '0');
