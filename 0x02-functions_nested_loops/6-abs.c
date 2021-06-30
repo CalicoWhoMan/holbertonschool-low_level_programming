@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * abs - funcation that computes the absolute value of integer
+ * _abs - funcation that computes the absolute value of integer
  * @a: this
  * Return: 0
  */
