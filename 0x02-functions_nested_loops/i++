@@ -1,0 +1,6 @@
+This is my i++
+
+	Pre increment operator (++i)	value of i is incremented before assigning it to the variable i
+	Post increment operator (i++)	value of i is incremented after assigning it to the variable i
+	Pre decrement operator (–i)	value of i is decremented before assigning it to the variable i
+	Post decrement operator (i–)	value of i is decremented after assigning it to variable i
