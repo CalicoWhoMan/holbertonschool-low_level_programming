@@ -9,12 +9,12 @@ void jack_bauer(void)
 {
 	char a, b, c, d, e, f;
 
-	for (a = 0; a < 24; a++)
+	for (a = 0; a < 60; a++)
 	{
 		c = a / 10;
 		d = a % 10;
 
-	for (b = 0; b < 60; b++)
+	for (b = 0; b < 24; b++)
 
 	e = b / 10;
 	f = b % 10;
