@@ -13,7 +13,7 @@ int num;
 for (num = 1; num <= 100; num++)
 {
 
-	if (num % 3 && num % 5 == 0)
+	if (num % 3 == 0 && num % 5 == 0)
 	{
 		printf("FizzBuzz");
 	}
