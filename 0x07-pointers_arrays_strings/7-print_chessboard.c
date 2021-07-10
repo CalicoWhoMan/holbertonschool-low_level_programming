@@ -5,7 +5,7 @@
  * @a: string pointer
  */
 
-void print_chessboard(char (*a)[8])
+void print_chessboard(char a[8][8])
 
 {
 int i, j;
