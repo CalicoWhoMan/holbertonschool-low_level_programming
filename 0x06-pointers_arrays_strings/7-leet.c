@@ -9,18 +9,19 @@
  */
 
 char *leet(char *n)
-{
-int i, j;
-char syi[] = "aAeEoOtTlL";
-char ser[] = "4433007711";
 
-for (i = 0; n[i] != '\0'; i++)
 {
-for (j = 0; j < 10; j++)
+char go[] = {'a', 'e', 'l', 'o', 't', 'A', 'E', 'L', 'O', 'T'};
+char and[] = {'4', '3', '1', '0', '7', '4', '3', '1', '0', '7'};
+int i = 0;
+int j = 0;
+
+while (n[i] != 0)
 {
-if (n[i] == syi[j])
-n[i] == ser[j];
-}
+	for (j = 0; j < 10; j++)
+		if (n[i] == go[j])
+			n[i] = and[j];
+	i++;
 }
 return (n);
 }
