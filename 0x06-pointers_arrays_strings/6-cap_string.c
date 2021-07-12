@@ -9,29 +9,25 @@
  */
 
 char *cap_string(char *n)
-
 {
-char and[] = {
+int i, j;
+char and[13] = {
 ' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'
 };
 
-
-int i = 0;
-int j;
-
-for (; *(n + 1) != 0; i++)
-if (*(n + i) <= 'a' && *(n + i) <= 'z')
+for (i = 0; n[i] != '\0'; i++)
 {
-if (i == 0)
+if (i == 0 && n[i] >= 'a' && n[i] <= 'z')
+n[i] -= 32;
+for (j = 0; j < 13; j++)
 {
-
-*(n) += ('A' - 'a');
+if (n[i] == and[j])
+{
+if (n[i + 1] >= 'a' && n[i + 1] <= 'z')
+{
+n[i + 1] -= 32;
 }
-else
-{
-for (j = 0; j <= 12; j++)
-if (*(n + i - 1) == and[j])
-*(n + i) += ('A' - 'a');
+}
 }
 }
 return (n);
