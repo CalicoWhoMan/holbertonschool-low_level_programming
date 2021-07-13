@@ -1,6 +1,22 @@
 #include "holberton.h"
 
 /**
+ * process - returns the natural square root of a num
+ * @n: num ^* root
+ * @y: square
+ * Return: square root or -1 if it doesnt have one
+ */
+
+int process(int n, int y)
+{
+if ((n * n) == y)
+        return (n);
+if ((n * n) > y)
+        return (-1);
+return (process(n + 1, y));
+}
+
+/**
  * _sqrt_recursion - returns the natural square root of a num
  * @n: num
  *
@@ -9,21 +25,5 @@
 
 int _sqrt_recursion(int n)
 {
-return (process(0, n));
-}
-
-/**
- * process - returns the natural square root of a num
- * @x: num
- * @y: num
- * Return: square root or -1 if it doesnt have one
- */
-
-int process(int x, int y)
-{
-if (y * y > x)
-	return (-1);
-if (y * y == x)
-	return (x);
-return (process(x, y + 1));
+        return (process(1, n));
 }
