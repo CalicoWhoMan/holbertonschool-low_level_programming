@@ -19,7 +19,6 @@ for (i = 1; i < argc; i++)
 	for (x = 0; argv[i][x]; x++)
 
 	{
-	printf("sum = argv[i][x]");
 	if (!isdigit(argv[i][x]))
 	{
 		printf("Error\n");
