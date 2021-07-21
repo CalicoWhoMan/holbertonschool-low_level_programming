@@ -23,7 +23,7 @@ if (n == NULL || str == NULL)
 {
 return (NULL);
 }
-for (a = 0; a < i; a++)
+for (a = 0; a <= i; a++)
 {
 n[a] = str[a];
 }
