@@ -8,14 +8,13 @@
  * @height: height point
  * Return: 0
  */
+int i;
 
 void free_grid(int **grid, int height)
-
 {
-int a;
-for (a = 0; a < height; a++)
+for (i = 0; i < height; i++)
 {
-free(grid[a]);
+	free(grid[i]);
 }
 free(grid);
 }
