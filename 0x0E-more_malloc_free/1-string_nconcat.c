@@ -21,11 +21,7 @@ s1 = "";
 if (s2 == NULL)
 /*otherwise make empty sting*/
 s2 = "";
-/*length of both strings */
-strlen(s1);
-strlen(s2);
-/*If n is greater or equal to the length of s2 then use the entire string s2 */
-if (n >= strlen(s2))
+if (n > strlen(s2))
 /*combining both strings into one plus null byte (bytes) */
 toget = malloc(strlen(s1) + strlen(s2) + 1);
 else
@@ -34,4 +30,10 @@ toget = malloc(strlen(s1) + n + 1);
 /*check if combined strings is NULL otherwise return NULL second step */
 if (toget == NULL)
 return (NULL);
+for (a = 0; s1[a]; a++)
+toget[a] = s1[a];
+for (b = 0; s2[b] && b < n; b++, a++)
+toget[a] = s2[b];
+toget[a] = 0;
+return (toget);
 }
