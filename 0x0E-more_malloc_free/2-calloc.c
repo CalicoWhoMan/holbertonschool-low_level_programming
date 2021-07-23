@@ -17,7 +17,7 @@ return (NULL);
 x = malloc(nmemb * size);
 if (x == NULL)
 return (NULL);
-for (i = 0; i < nmemb; i++)
+for (i = 0; i <(nmemb * size); i++)
 x[i] = 0;
 return (x);
 }
