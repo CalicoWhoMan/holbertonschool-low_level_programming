@@ -5,7 +5,7 @@
  * @s1: string one
  * @s2: string two
  * @n: bytes
- * Return: s1 followed by n bytes of s2 and NULL
+ * Return: toget ord NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
