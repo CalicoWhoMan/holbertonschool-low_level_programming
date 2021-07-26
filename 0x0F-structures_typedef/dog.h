@@ -8,7 +8,7 @@
  * @owner: owner var
  */
 
-struct dog
+typedef struct dog
 
 {
 	char *name;
