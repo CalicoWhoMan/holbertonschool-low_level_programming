@@ -15,7 +15,7 @@ size_t i;
 
 if (size <= 0 || action == NULL || array == NULL)
 	return;
-for (i = o; i < size; i++)
+for (i = 0; i < size; i++)
 {
 	action(array[i]);
 }
