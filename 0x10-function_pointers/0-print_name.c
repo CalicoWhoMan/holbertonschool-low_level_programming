@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * print-name - prints a functions name
+ * print_name - prints a functions name
  * @name: pointer
  * @f: pointer
  */
