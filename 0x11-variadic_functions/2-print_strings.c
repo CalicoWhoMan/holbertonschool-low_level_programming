@@ -4,22 +4,29 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 
 {
-va_list io;
-char args;
+char *args;
 unsigned int i;
 
+
+va_list io;
 va_start(io, n);
 
-for (i = 0; i < n; ++i)
+for (i = 0; i < n; i++)
 {
-args = va_arg(io, int);
+args = va_arg(io, char *);
 if (args)
-printf("%d", args);
+{
+printf("%s", args);
+}
 else
+{
 printf("(nil)");
-if (i < n - 1 && separator)
+}
+if (separator && i < (n - 1))
+{
 printf("%s", separator);
 }
-printf("\n");
+}
 va_end(io);
+printf("\n");
 }
