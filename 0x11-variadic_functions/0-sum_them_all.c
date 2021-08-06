@@ -20,6 +20,7 @@ return (0);
 }
 va_start(io, n);
 for (i = 0; i < n; i++)
+
 {
 try += va_arg(io, unsigned int);
 }
