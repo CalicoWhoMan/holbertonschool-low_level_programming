@@ -4,12 +4,12 @@
 /**
  * sum_them_all - func that returns the sum of all its parameters
  * @n: int
- * Return: sum
+ * Return: 0 or sum
  */
 
 int sum_them_all(const unsigned int n, ...)
-{
 
+{
 int try = 0;
 unsigned int i;
 va_list io;
@@ -21,7 +21,7 @@ return (0);
 va_start(io, n);
 for (i = 0; i < n; i++)
 {
-try += va_arg(io, int);
+try += va_arg(io, unsigned int);
 }
 va_end(io);
 return (try);
