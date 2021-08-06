@@ -20,6 +20,6 @@ typedef struct format_specifiers
 {
 char *s;
 void (*f)();
-}format_t;
+} format_t;
 
 #endif /* "VARIADIC_FUNTIONS" */
