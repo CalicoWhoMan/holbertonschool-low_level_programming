@@ -2,7 +2,8 @@
 
 /**
  * add_node_end - adds a new node at end of list_t
- * @s: pointer
+ * @head: pointer
+ * @str: pointer
  *Return: size
  */
 
