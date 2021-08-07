@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * add_node_end - adds a new node at end of list_t
  * @s: pointer
  *Return: size
