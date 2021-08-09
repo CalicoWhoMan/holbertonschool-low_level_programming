@@ -16,7 +16,6 @@ list_t *add_node(list_t **head, const char *str)
 	if (str == NULL)
 		return (NULL);
 
-	point =  strdup(str);
 	if (point == NULL)
 	{
 		free(point);
