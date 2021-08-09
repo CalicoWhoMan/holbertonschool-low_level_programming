@@ -17,7 +17,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	if (point == NULL)
 	{
-		free(point);
+		free(!point);
 		return (NULL);
 	}
 	point = (list_t *)malloc(sizeof(list_t));
