@@ -12,12 +12,10 @@ size_t print_listint(const listint_t *h)
 {
 	size_t insomnia = 0;
 
-	if (!h)
-		return (0);
 	while (h != NULL)
 	{
 		insomnia++;
-		printf("%d\n", h->n);
+		printf("%i\n", h->n);
 		h = h->next;
 	}
 	return (insomnia);
