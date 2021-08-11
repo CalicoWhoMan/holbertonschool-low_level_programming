@@ -20,6 +20,5 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	insomnia->n = n;
 	insomnia->next = *head;
 	*head = insomnia;
-	
 	return (insomnia);
 }
