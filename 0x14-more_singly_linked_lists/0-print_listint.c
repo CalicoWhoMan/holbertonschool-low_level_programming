@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * print_listint - prints all the elements of a listin_t list
- * @h: pointer
- * Return: the node
+ *print_listint - prints all the elements of a listin_t list
+ *@h: pointer
+ *Return: "insomnia" the node
  */
 
 size_t print_listint(const listint_t *h)
