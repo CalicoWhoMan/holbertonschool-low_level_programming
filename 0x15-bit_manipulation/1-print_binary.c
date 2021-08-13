@@ -2,7 +2,7 @@
 
 /**
  * print_binary - F that prints the binary representation of a number
- * @n:
+ * @n: unsigned long int
  * Return: 0
  */
 
