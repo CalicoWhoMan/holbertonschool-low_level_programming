@@ -12,7 +12,6 @@ size_t print_listint(const listint_t *h)
 
 {
 int insomnia = 0;
-
 while (h != NULL)
 {
 if (h->n != 0)
