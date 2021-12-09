@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "lists.h"
 #include <string.h>
 
 /**
@@ -10,18 +10,5 @@
 size_t print_dlistint_backward(const dlistint_t *h)
 
 {
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

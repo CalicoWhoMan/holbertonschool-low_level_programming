@@ -10,12 +10,10 @@
 size_t dlistint_len(const dlistint_t *h)
 
 {
-size_t length = 0;
-
-while (h != NULL)
-{
-h = h->next;
-length++;
-}
-return (length);
+	int length;
+	
+	for (length = 0; h != NULL; length++, h = h->next)
+	{
+	}
+	return (length);
 }
