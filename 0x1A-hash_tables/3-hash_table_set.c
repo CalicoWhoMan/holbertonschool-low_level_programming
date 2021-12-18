@@ -14,7 +14,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t *new_element, *element;
 
 	if (key == NULL || strlen(key) < 1 || !value || !ht)
-			return (0);
+		return (0);
 	new_element = malloc(sizeof(hash_node_t));
 	if (!new_element)
 		return (0);
@@ -49,4 +49,4 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	return (1);
 
 
-}	
+}
