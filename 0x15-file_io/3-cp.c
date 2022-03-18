@@ -33,13 +33,13 @@ int main(int argc, char *argv[])
 	{
 	if (write(file_end, buffer, trim) != trim)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[2]);
 		exit(99);
 	}
 	}
 	if (trim == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[2]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	if ((close(file_start) == -1) || (close(file_end) == -1))
