@@ -28,7 +28,7 @@ return (NULL);
 
 for (inc = 0; inc < size; inc++)
 {
-	array4table[inc] = NULL;
+array4table[inc] = NULL;
 }
 
 p2table->array = array4table;
